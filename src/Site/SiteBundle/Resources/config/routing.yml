@@ -1,0 +1,11 @@
+SiteSiteBundle_homepage:
+    pattern:  /
+    defaults: { _controller: SiteSiteBundle:Default:index }
+SiteSiteBundle_about:
+    pattern:  /about
+    defaults: { _controller: SiteSiteBundle:Default:about }
+SiteSiteBundle_contact:
+    pattern:  /contact
+    defaults: { _controller: SiteSiteBundle:Default:contact }
+    requirements:
+        _method:  GET|POST

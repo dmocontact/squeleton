@@ -1,0 +1,4 @@
+# src/Site/SiteBundle/Resources/config/config.yml
+parameters:
+    # Site contact email address
+    site_site.emails.contact_email: monnier.dorian@gmail.fr

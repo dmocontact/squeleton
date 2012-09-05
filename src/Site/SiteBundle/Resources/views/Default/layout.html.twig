@@ -1,0 +1,11 @@
+{# src/Site/SiteBundle/Resources/views/layout.html.twig #}
+{% extends 'SiteSiteBundle:Default:index.html.twig' %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    <link href="{{ asset('css/contact.css') }}" type="text/css" rel="stylesheet" />
+{% endblock %}
+
+{% block sidebar %}
+    Sidebar content
+{% endblock %}
